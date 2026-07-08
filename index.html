@@ -1,19 +1,99 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>Home | Ngee Ann Poly GitHub Page</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <style>
-    body { font-family: Arial, sans-serif; margin: 40px; background: #f9f9f9; }
-    .container { max-width: 600px; margin: auto; background: #fff; padding: 32px; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.05);}
-    h1 { color: #0055a5; }
-    p { color: #333; }
-  </style>
+<meta charset="UTF-8">
+<title>Jon Scheele — Blue Connector</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Jon Scheele, Founder of Blue Connector — building AI-ready foundations for Asia-Pacific's technology leaders.">
+<link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --midnight: #05125C;
+    --ocean: #0719AA;
+    --sky: #37A0F4;
+    --light-sky: #8CC9FF;
+    --orange: #FE9000;
+    --cloud: #E0E1DD;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: var(--midnight);
+    font-family: 'Inter', 'Helvetica Neue', Arial, sans-serif;
+    color: #fff;
+    padding: 32px 20px;
+  }
+  .card {
+    max-width: 560px;
+    width: 100%;
+    text-align: center;
+  }
+  .logo {
+    width: 260px;
+    max-width: 70%;
+    margin-bottom: 40px;
+  }
+  h1 {
+    font-size: 28px;
+    font-weight: 700;
+    margin: 0 0 12px;
+  }
+  p.subtitle {
+    font-size: 16px;
+    line-height: 1.5;
+    color: var(--light-sky);
+    margin: 0 0 32px;
+  }
+  .cta {
+    display: inline-block;
+    background: var(--orange);
+    color: #fff;
+    font-weight: 700;
+    text-decoration: none;
+    padding: 14px 28px;
+    border-radius: 6px;
+    font-size: 15px;
+    margin-bottom: 28px;
+  }
+  .links {
+    font-size: 14px;
+  }
+  .links a {
+    color: #fff;
+    text-decoration: none;
+    border-bottom: 1px solid rgba(255,255,255,0.35);
+  }
+  .links a:hover {
+    border-bottom-color: #fff;
+  }
+  .sep {
+    color: var(--cloud);
+    margin: 0 10px;
+  }
+  footer {
+    margin-top: 40px;
+    font-size: 12px;
+    color: var(--cloud);
+  }
+</style>
 </head>
 <body>
-  <div class="container">
-    <h1>Welcome to Ngee Ann Poly GitHub Page</h1>
-    <p>This is a simple home page for the Ngee Ann Polytechnic GitHub site.</p>
-    <p>Explore our projects, resources, and more!</p>
+  <div class="card">
+    <img class="logo" src="assets/logo-white.svg" alt="Blue Connector">
+    <h1>Jon Scheele</h1>
+    <p class="subtitle">Founder, Blue Connector — building AI-ready foundations for Asia-Pacific's technology leaders.</p>
+    <a class="cta" href="https://calendly.com/jon-scheele/30min">Book a free strategy call</a>
+    <div class="links">
+      <a href="https://www.blueconnector.co">Website</a><span class="sep">·</span><a href="mailto:hello@blueconnector.co">Email</a><span class="sep">·</span><a href="https://linkedin.com/in/scheelejon">LinkedIn</a><span class="sep">·</span><a href="https://github.com/jscheele">GitHub</a>
+    </div>
+    <footer>Helping organisations connect data, systems, and strategy.</footer>
   </div>
+</body>
+</html>

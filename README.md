@@ -1,5 +1,4 @@
-# Welcome to Ngee Ann Poly GitHub Page
+# jscheele.github.io
 
-Hello and welcome! This repository demonstrates publishing a Github page.
-
----
+Personal landing page for Jon Scheele, Founder of [Blue Connector](https://www.blueconnector.co).
+Published via GitHub Pages at [jscheele.github.io](https://jscheele.github.io/).
